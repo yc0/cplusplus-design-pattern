@@ -105,7 +105,7 @@ PDFConverter::PDFConverter(){
 };
 
 PDFConverter::~PDFConverter(){
-    _result = nullptr;
+    delete _result;
 }
 
 void PDFConverter::makeLine(char *name) {
@@ -135,7 +135,7 @@ ASCIIConverter::ASCIIConverter(){
 };
 
 ASCIIConverter::~ASCIIConverter(){
-    _result = nullptr;
+    delete _result;
 }
 
 void ASCIIConverter::makeLine(char *name) {
