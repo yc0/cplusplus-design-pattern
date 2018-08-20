@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		52420A2E212A3918005B4C83 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52420A2D212A3918005B4C83 /* main.cpp */; };
+		52420A37212A3963005B4C83 /* builder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52420A35212A3963005B4C83 /* builder.cpp */; };
+		52420A3E212A71C7005B4C83 /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52420A3D212A71C7005B4C83 /* gtest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		52420A2A212A3918005B4C83 /* design-pattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "design-pattern"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52420A2D212A3918005B4C83 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		52420A35212A3963005B4C83 /* builder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = builder.cpp; sourceTree = "<group>"; };
+		52420A36212A3963005B4C83 /* builder.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = builder.hpp; sourceTree = "<group>"; };
+		52420A3D212A71C7005B4C83 /* gtest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = gtest.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52420A3E212A71C7005B4C83 /* gtest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +47,7 @@
 		52420A21212A3918005B4C83 = {
 			isa = PBXGroup;
 			children = (
+				52420A3D212A71C7005B4C83 /* gtest.framework */,
 				52420A2C212A3918005B4C83 /* design-pattern */,
 				52420A2B212A3918005B4C83 /* Products */,
 			);
@@ -57,9 +64,19 @@
 		52420A2C212A3918005B4C83 /* design-pattern */ = {
 			isa = PBXGroup;
 			children = (
+				52420A34212A3936005B4C83 /* creational */,
 				52420A2D212A3918005B4C83 /* main.cpp */,
 			);
 			path = "design-pattern";
+			sourceTree = "<group>";
+		};
+		52420A34212A3936005B4C83 /* creational */ = {
+			isa = PBXGroup;
+			children = (
+				52420A35212A3963005B4C83 /* builder.cpp */,
+				52420A36212A3963005B4C83 /* builder.hpp */,
+			);
+			path = creational;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52420A2E212A3918005B4C83 /* main.cpp in Sources */,
+				52420A37212A3963005B4C83 /* builder.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +251,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -241,6 +263,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
