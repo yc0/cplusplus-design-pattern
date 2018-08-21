@@ -12,6 +12,7 @@
 		52420A3E212A71C7005B4C83 /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52420A3D212A71C7005B4C83 /* gtest.framework */; };
 		52420A42212B0086005B4C83 /* singleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52420A40212B0086005B4C83 /* singleton.cpp */; };
 		528252D0212B88880013BE38 /* factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 528252CE212B88880013BE38 /* factory.cpp */; };
+		528252D4212BDF3A0013BE38 /* strategy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 528252D2212BDF3A0013BE38 /* strategy.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +37,9 @@
 		52420A41212B0086005B4C83 /* singleton.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = singleton.hpp; sourceTree = "<group>"; };
 		528252CE212B88880013BE38 /* factory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = factory.cpp; sourceTree = "<group>"; };
 		528252CF212B88880013BE38 /* factory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = factory.hpp; sourceTree = "<group>"; };
+		528252D2212BDF3A0013BE38 /* strategy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = strategy.cpp; sourceTree = "<group>"; };
+		528252D3212BDF3A0013BE38 /* strategy.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = strategy.hpp; sourceTree = "<group>"; };
+		528252D5212C0E7F0013BE38 /* quota.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = quota.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 		52420A2C212A3918005B4C83 /* design-pattern */ = {
 			isa = PBXGroup;
 			children = (
+				528252D1212BDF070013BE38 /* behavioral */,
 				52420A3F212B0060005B4C83 /* structural */,
 				52420A34212A3936005B4C83 /* creational */,
 				52420A2D212A3918005B4C83 /* main.cpp */,
@@ -95,6 +100,16 @@
 			children = (
 			);
 			path = structural;
+			sourceTree = "<group>";
+		};
+		528252D1212BDF070013BE38 /* behavioral */ = {
+			isa = PBXGroup;
+			children = (
+				528252D2212BDF3A0013BE38 /* strategy.cpp */,
+				528252D3212BDF3A0013BE38 /* strategy.hpp */,
+				528252D5212C0E7F0013BE38 /* quota.txt */,
+			);
+			path = behavioral;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				528252D4212BDF3A0013BE38 /* strategy.cpp in Sources */,
 				528252D0212B88880013BE38 /* factory.cpp in Sources */,
 				52420A2E212A3918005B4C83 /* main.cpp in Sources */,
 				52420A37212A3963005B4C83 /* builder.cpp in Sources */,
