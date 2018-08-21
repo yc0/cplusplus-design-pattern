@@ -9,12 +9,11 @@ A collection of design patterns and idioms in C++, and all wrote on Xcode with g
 
 ## design patter
 
-### creational Pattern
-
-##### Builder
-
+### creational pattern
+##### builder
 ##### singleton
-
-### structural Pattern
-
-### behaviroal Pattern
+##### factory
+### structural pattern
+##### proxy
+### behavioral pattern
+##### strategy 
