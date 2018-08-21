@@ -11,6 +11,7 @@
 		52420A37212A3963005B4C83 /* builder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52420A35212A3963005B4C83 /* builder.cpp */; };
 		52420A3E212A71C7005B4C83 /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52420A3D212A71C7005B4C83 /* gtest.framework */; };
 		52420A42212B0086005B4C83 /* singleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52420A40212B0086005B4C83 /* singleton.cpp */; };
+		528252D0212B88880013BE38 /* factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 528252CE212B88880013BE38 /* factory.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,8 @@
 		52420A3D212A71C7005B4C83 /* gtest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = gtest.framework; sourceTree = "<group>"; };
 		52420A40212B0086005B4C83 /* singleton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = singleton.cpp; sourceTree = "<group>"; };
 		52420A41212B0086005B4C83 /* singleton.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = singleton.hpp; sourceTree = "<group>"; };
+		528252CE212B88880013BE38 /* factory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = factory.cpp; sourceTree = "<group>"; };
+		528252CF212B88880013BE38 /* factory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = factory.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 				52420A36212A3963005B4C83 /* builder.hpp */,
 				52420A40212B0086005B4C83 /* singleton.cpp */,
 				52420A41212B0086005B4C83 /* singleton.hpp */,
+				528252CE212B88880013BE38 /* factory.cpp */,
+				528252CF212B88880013BE38 /* factory.hpp */,
 			);
 			path = creational;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				528252D0212B88880013BE38 /* factory.cpp in Sources */,
 				52420A2E212A3918005B4C83 /* main.cpp in Sources */,
 				52420A37212A3963005B4C83 /* builder.cpp in Sources */,
 				52420A42212B0086005B4C83 /* singleton.cpp in Sources */,
