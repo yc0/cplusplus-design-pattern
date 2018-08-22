@@ -10,7 +10,7 @@
 #include <gtest/gtest.h>
 
 int main(int argc, char *argv[]) {
-    testing::GTEST_FLAG(filter) = "*Proxy*";
+    testing::GTEST_FLAG(filter) = "*Bridge*";
     testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
 }

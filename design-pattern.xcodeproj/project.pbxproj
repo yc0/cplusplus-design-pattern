@@ -14,6 +14,7 @@
 		528252D0212B88880013BE38 /* factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 528252CE212B88880013BE38 /* factory.cpp */; };
 		528252D4212BDF3A0013BE38 /* strategy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 528252D2212BDF3A0013BE38 /* strategy.cpp */; };
 		528252D8212C14F80013BE38 /* proxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 528252D6212C14F80013BE38 /* proxy.cpp */; };
+		528252DB212C5EA90013BE38 /* bridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 528252D9212C5EA90013BE38 /* bridge.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,8 @@
 		528252D5212C0E7F0013BE38 /* quota.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = quota.txt; sourceTree = "<group>"; };
 		528252D6212C14F80013BE38 /* proxy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = proxy.cpp; sourceTree = "<group>"; };
 		528252D7212C14F80013BE38 /* proxy.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = proxy.hpp; sourceTree = "<group>"; };
+		528252D9212C5EA90013BE38 /* bridge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bridge.cpp; sourceTree = "<group>"; };
+		528252DA212C5EA90013BE38 /* bridge.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = bridge.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				528252D6212C14F80013BE38 /* proxy.cpp */,
 				528252D7212C14F80013BE38 /* proxy.hpp */,
+				528252D9212C5EA90013BE38 /* bridge.cpp */,
+				528252DA212C5EA90013BE38 /* bridge.hpp */,
 			);
 			path = structural;
 			sourceTree = "<group>";
@@ -179,6 +184,7 @@
 				528252D8212C14F80013BE38 /* proxy.cpp in Sources */,
 				52420A2E212A3918005B4C83 /* main.cpp in Sources */,
 				52420A37212A3963005B4C83 /* builder.cpp in Sources */,
+				528252DB212C5EA90013BE38 /* bridge.cpp in Sources */,
 				52420A42212B0086005B4C83 /* singleton.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
