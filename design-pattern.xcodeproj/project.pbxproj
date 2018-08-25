@@ -18,6 +18,7 @@
 		528252DE212DA0730013BE38 /* adapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 528252DC212DA0730013BE38 /* adapter.cpp */; };
 		528A5319213121DC00CC843C /* composite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 528A5317213121DC00CC843C /* composite.cpp */; };
 		52B6E8FC21313FAE00FA4B0B /* decorator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52B6E8FA21313FAE00FA4B0B /* decorator.cpp */; };
+		52B6E8FF2131594800FA4B0B /* Observer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52B6E8FD2131594800FA4B0B /* Observer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +56,8 @@
 		528A5318213121DC00CC843C /* composite.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = composite.hpp; sourceTree = "<group>"; };
 		52B6E8FA21313FAE00FA4B0B /* decorator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = decorator.cpp; sourceTree = "<group>"; };
 		52B6E8FB21313FAE00FA4B0B /* decorator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = decorator.hpp; sourceTree = "<group>"; };
+		52B6E8FD2131594800FA4B0B /* Observer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Observer.cpp; sourceTree = "<group>"; };
+		52B6E8FE2131594800FA4B0B /* Observer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Observer.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,8 @@
 				528252D2212BDF3A0013BE38 /* strategy.cpp */,
 				528252D3212BDF3A0013BE38 /* strategy.hpp */,
 				528252D5212C0E7F0013BE38 /* quota.txt */,
+				52B6E8FD2131594800FA4B0B /* Observer.cpp */,
+				52B6E8FE2131594800FA4B0B /* Observer.hpp */,
 			);
 			path = behavioral;
 			sourceTree = "<group>";
@@ -195,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				528252D4212BDF3A0013BE38 /* strategy.cpp in Sources */,
+				52B6E8FF2131594800FA4B0B /* Observer.cpp in Sources */,
 				52B6E8FC21313FAE00FA4B0B /* decorator.cpp in Sources */,
 				528252D0212B88880013BE38 /* factory.cpp in Sources */,
 				528A5319213121DC00CC843C /* composite.cpp in Sources */,
