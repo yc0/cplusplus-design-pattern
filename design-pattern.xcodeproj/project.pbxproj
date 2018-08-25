@@ -17,6 +17,7 @@
 		528252DB212C5EA90013BE38 /* bridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 528252D9212C5EA90013BE38 /* bridge.cpp */; };
 		528252DE212DA0730013BE38 /* adapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 528252DC212DA0730013BE38 /* adapter.cpp */; };
 		528A5319213121DC00CC843C /* composite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 528A5317213121DC00CC843C /* composite.cpp */; };
+		52B6E8FC21313FAE00FA4B0B /* decorator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52B6E8FA21313FAE00FA4B0B /* decorator.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +53,8 @@
 		528252DD212DA0730013BE38 /* adapter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = adapter.hpp; sourceTree = "<group>"; };
 		528A5317213121DC00CC843C /* composite.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = composite.cpp; sourceTree = "<group>"; };
 		528A5318213121DC00CC843C /* composite.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = composite.hpp; sourceTree = "<group>"; };
+		52B6E8FA21313FAE00FA4B0B /* decorator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = decorator.cpp; sourceTree = "<group>"; };
+		52B6E8FB21313FAE00FA4B0B /* decorator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = decorator.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				528252DD212DA0730013BE38 /* adapter.hpp */,
 				528A5317213121DC00CC843C /* composite.cpp */,
 				528A5318213121DC00CC843C /* composite.hpp */,
+				52B6E8FA21313FAE00FA4B0B /* decorator.cpp */,
+				52B6E8FB21313FAE00FA4B0B /* decorator.hpp */,
 			);
 			path = structural;
 			sourceTree = "<group>";
@@ -190,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				528252D4212BDF3A0013BE38 /* strategy.cpp in Sources */,
+				52B6E8FC21313FAE00FA4B0B /* decorator.cpp in Sources */,
 				528252D0212B88880013BE38 /* factory.cpp in Sources */,
 				528A5319213121DC00CC843C /* composite.cpp in Sources */,
 				528252D8212C14F80013BE38 /* proxy.cpp in Sources */,
