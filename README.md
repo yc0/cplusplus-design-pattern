@@ -17,5 +17,6 @@ A collection of design patterns and idioms in C++, and all wrote on Xcode with g
 ##### proxy
 ##### bridge
 ##### adapter
+##### composite
 ### behavioral pattern
 ##### strategy 
